@@ -1,0 +1,23 @@
+.racer_table td {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border: 1px black solid;
+}
+
+.racer_table td.active {
+  background-color: black;
+}
+
+tr {
+  border: 1px black solid;
+}
+
+table, th, td
+{
+border: 1px solid black;
+}
+
+
+$('#player2_strip td').removeClass("active");
+$('#player2_strip td:nth-child(13)').addClass("active");
